@@ -1,0 +1,28 @@
+/* Application_for Membership_in_the_Death_Eaters: Created by Amir Mohammad Tavallali Nia! */
+
+/* Telegram Channel: https://t.me/A_M_T_N134 */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+:root{color-scheme:dark;--bg:#10110f;--panel:#191a17;--soft:#20211d;--text:#e9e6dc;--muted:#aaa99e;--accent:#b9a16a;--dark:#78663e;--danger:#d19a8c;--border:#393a32}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#29281f 0,var(--bg) 55%);color:var(--text);font-family:"Inter",Tahoma,sans-serif;line-height:1.9}
+.page{width:min(900px,calc(100% - 28px));margin:42px auto}.masthead{text-align:center;padding:18px 12px 30px}
+.sigil{width:72px;height:72px;margin:0 auto 18px;display:grid;place-items:center;border:1px solid var(--dark);border-radius:50%;color:var(--accent);font-size:32px;box-shadow:0 0 0 4px var(--panel),0 0 0 5px var(--dark)}
+.eyebrow{color:var(--accent);font-size:.88rem;margin:0}h1{font-size:clamp(2rem,6vw,3.2rem);line-height:1.4;margin:4px 0;font-weight:800}.subtitle{margin:0;color:var(--muted)}.reference{color:var(--muted);font-size:.85rem;margin:2px 0 0}
+.rule{display:flex;align-items:center;gap:14px;width:min(360px,90%);margin:22px auto 0;color:var(--accent);font-size:.8rem}.rule:before,.rule:after{content:"";height:1px;background:var(--dark);flex:1}
+.notice{border:1px solid #66563a;border-left:4px solid var(--accent);background:#211f19;padding:18px 22px;border-radius:8px;margin-bottom:24px;color:#d0cbbd}.notice strong{color:var(--accent)}.notice p{margin:5px 0}
+.notice--inline{font-size:.85rem;padding:10px 14px;margin-top:14px}.final-notice{margin-top:24px}
+.form-section{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:clamp(18px,4vw,30px);margin:18px 0}
+h2{font-size:1.25rem;margin:0 0 22px;display:flex;align-items:center;gap:12px}h2 span{display:inline-grid;place-items:center;width:34px;height:34px;border:1px solid var(--dark);border-radius:50%;color:var(--accent);font-size:.95rem}
+.section-intro{color:var(--muted);font-style:italic;margin:0 0 16px;padding:8px 14px;background:var(--soft);border-left:3px solid var(--dark);border-radius:6px;font-size:.9rem}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}label{display:block;color:#dedbd1;font-size:.95rem;margin-bottom:18px}.grid label{margin:0}em{color:var(--danger);font-style:normal}
+input:not([type=radio],[type=checkbox]),select,textarea{display:block;width:100%;margin-top:7px;padding:12px 13px;background:#11120f;border:1px solid #414239;border-radius:6px;color:var(--text);font:inherit;outline:none}
+textarea{resize:vertical;min-height:100px}input:focus,select:focus,textarea:focus{border-color:var(--accent);box-shadow:0 0 0 3px #b9a16a20}
+.options{display:flex;flex-wrap:wrap;gap:12px;margin-top:10px}.choice,.check{display:flex;align-items:center;gap:10px;margin:0}.choice{padding:9px 16px;background:var(--soft);border:1px solid var(--border);border-radius:6px}.check{margin:9px 0}
+input[type=radio],input[type=checkbox]{accent-color:var(--accent);width:17px;height:17px;flex:0 0 auto}
+fieldset{border:1px solid var(--border);border-radius:7px;padding:16px;margin:24px 0 0}legend{padding:0 8px;color:var(--accent)}small{color:var(--muted);font-size:.82rem}
+.skill-table{width:100%;border-collapse:collapse;margin-bottom:20px}.skill-table th,.skill-table td{border:1px solid var(--border);padding:9px 4px;text-align:center}.skill-table th{background:var(--soft);color:var(--accent);font-weight:600;font-size:.85rem;letter-spacing:.5px}.skill-table td:first-child{text-align:left;font-weight:500;padding-left:14px}
+.dependent-grid{display:flex;flex-direction:column;gap:12px;margin-bottom:16px}.dependent-row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;padding:14px;background:var(--soft);border:1px solid var(--border);border-radius:7px}.dependent-row label{margin:0}
+.form-footer{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:8px 2px 24px}.required-note{color:var(--muted);margin-left:auto}
+button{border:1px solid var(--accent);border-radius:6px;padding:11px 24px;background:var(--accent);color:#17150f;font:inherit;font-weight:700;cursor:pointer}button:hover{filter:brightness(1.08)}button.secondary{background:transparent;color:var(--text);border-color:#55564b}
+.honeypot{display:none!important}footer{text-align:center;color:#77786e;font-size:.82rem;padding:20px 10px 35px}footer p{margin:5px}
+@media(max-width:620px){.page{margin:16px auto}.grid,.dependent-row{grid-template-columns:1fr}.form-footer{align-items:stretch}.required-note{width:100%;margin:0}.form-footer button{flex:1}.notice{padding:15px}}
